@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&family=Rajdhani:wght@300;500&display=swap');
+.root{
+--font1:font-family('PT Serif', serif);
+--font2:font-family('Rajdhani', sans-serif);
+}
+.flex{
+    display: flex;
+}
+.items-center{
+   align-items: center;
+}
+.justify-center{
+   justify-content: center;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.semibold{
+    font-weight: bolder;
+}
+.space-between{
+    justify-content: space-between;
+}
+.mx-2{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}

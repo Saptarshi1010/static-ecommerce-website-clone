@@ -1,0 +1,123 @@
+*{
+    margin: 0;padding: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 63px;
+    box-shadow: 0px 2px 0px 0px rgba(91, 91, 95, 0.2);
+    overflow: hidden;
+}
+.containerheader{
+    padding: 0 4vw;
+    font-family: var(--font1);
+}
+/* header{
+    height: 100px;
+    overflow: hidden;
+} */
+.left img{
+    width: 5vw;
+    height: 6vh;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 5px;
+    font-family: var(--font1);
+}
+.rightbox{
+    display: flex;
+    margin: 10px;
+}
+.section1{
+    background: rgb(246, 245, 245);
+    height: 10vh;
+}
+.search{
+    width: 19vw;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background: wheat;
+}
+.homeimg{
+    width: 75vw;
+    margin: 5px 160px;
+}
+.itemimg{
+    height: 60vh;
+    width: 12vw;
+    margin: 5px 46px;
+}
+.picimg{
+    width: 12vw;
+    margin: 5px 27px;
+}
+.pictureimage{
+    width: 10vw;
+    height: 42vh;
+    margin: 5px 10px;
+}
+/* .picimg{
+    width: 8vw;
+    margin: 5px 27px;
+    height: 50vh;
+} */
+footer{
+    padding: 10px 10px;
+    text-align: center;
+    top: 170vw;
+    position: relative;
+}
+@media (max-width:550px) {
+    .search{
+        width: 60vw;
+    }
+}
+@media (max-width: 1215px){
+    header{
+        height: 120px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li{
+        list-style: none;
+        padding: 0 2px;
+        font-size: 10px;
+    }
+    .left{
+        margin: 5px;
+    }
+    .right{
+        flex-direction: column;
+    }
+    .rightbox{
+        display: flex;
+        margin: 10px;
+    }
+    .homeimg{
+        width: 73vw;
+        margin: 5px 50px;
+    }
+    .itemimg{
+        height: 18vh;
+        width: 17vw;
+        margin: 5px 20px;
+    }
+    .picimg{
+        width: 12vw;
+        margin: 5px 20px;
+        height: 10vh;
+    }
+    .pictureimage{
+        height: 5vh;
+        width: 5vh;
+        margin: 5px 11px;
+    }
+    footer{
+        top:190vh
+    }
+}
